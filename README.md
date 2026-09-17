@@ -6,7 +6,7 @@ This project runs a **two-container stack** with:
 
 ---
 
-## 📂 Repository Layout
+## Repository Layout
 ```
 .
 ├─ app/
@@ -22,14 +22,14 @@ This project runs a **two-container stack** with:
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 - Docker Desktop (Linux containers enabled)
 - Docker Compose v2 (bundled with Docker Desktop)
 - Bash shell (to run `run.sh`)
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 From the repository root:
 
 ```bash
@@ -58,7 +58,7 @@ rm -rf ./out && mkdir -p ./out
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 ### Stdout
 ```
@@ -103,7 +103,7 @@ rm -rf ./out && mkdir -p ./out
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 - **Docker engine not running** → Open Docker Desktop and wait for “Engine running.”
 - **Port 5432 already in use** → Stop other Postgres instances, or map to a different port in `compose.yml`.
 - **App exits before DB is ready** → This stack uses a healthcheck; if running services manually, start DB first.
