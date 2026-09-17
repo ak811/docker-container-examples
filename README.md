@@ -1,4 +1,4 @@
-# Docker Containers
+# Docker Container Examples
 
 This project runs a **two-container stack** with:
 - **PostgreSQL** database seeded with trip data.
